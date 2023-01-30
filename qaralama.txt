@@ -1,0 +1,6 @@
+ders1.py
+qaralama.txt
+requirements.txt
+static
+templates
+venv
