@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../static/css/home.css">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <div class="pageName">
+            <h2><a href="">My Page</a></h2>
+        </div>
+
+        <header>
+            <ul>
+                <li><a href=""><h2>Library</h2></a></li>
+                <li><a href=""><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                <li><a href=""><i class="fa fa-filter" aria-hidden="true"></i> Filter</a>
+                    <ul>
+                        <li><a href="">Dedectiv</a></li>
+                        <li><a href="">Romantic</a></li>
+                    </ul>
+                </li>
+                <li><a href="">About</a></li>
+                <li><a onclick="show()" id="login"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
+                    <div class="form">
+                        <form action="" method="" onsubmit="return false">
+                            <div>
+                                <input type="text" au>
+                                <label for="">Username</label>
+                            </div>
+                            <div>
+                                <input type="password">
+                                <label for="">Password</label>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <button disabled=false class="login">Login</button>
+                            </div>
+                        </form>
+                    </div>
+                </li>
+            </ul>
+        </header>
+
+        <div class="carusel">
+            <div class="images">
+                <img src="../static/images/pictur1.webp" alt="" class="carusel-img">
+            </div>
+            <div class="next-previous">
+                <div id="previous">&laquo; Previous</div>
+                <div id="next">next &raquo;</div>
+            </div>
+            <div class="number">
+               
+            </div>
+        </div>
+
+        <div class="books">
+            
+        </div>
+
+        <footer>
+            footer
+        </footer>
+
+        <script src="../static/js/home.js"></script>
+        <script src="../static/js/login.js"></script>
+    </body>
+</html>

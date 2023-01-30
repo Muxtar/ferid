@@ -1,0 +1,8 @@
+body{
+    background-image: linear-gradient(to right, #5bc4e2, #990de8);
+}
+div.download{
+    border: 1px solid red;
+    height: 20px;
+    background-image: linear-gradient(to right, #5bc4e2, #990de8, red);
+}
